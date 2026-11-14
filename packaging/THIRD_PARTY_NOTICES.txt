@@ -1,0 +1,31 @@
+Tagwave - third-party software
+================================
+
+Tagwave bundles the following components. Each remains under its own license.
+
+FFmpeg (ffmpeg.exe, ffprobe.exe)
+  Build: gyan.dev "essentials" build, licensed under the GNU GPL v3.
+  FFmpeg is a separate program run by Tagwave; it is included unmodified.
+  Source code: https://ffmpeg.org/download.html  and  https://www.gyan.dev/ffmpeg/builds/
+  License: https://www.gnu.org/licenses/gpl-3.0.html
+
+Mutagen - audio metadata library (GNU GPL v2 or later)
+  https://github.com/quodlibet/mutagen
+
+jpeglib - DCT-domain JPEG access, includes libjpeg / libjpeg-turbo (IJG / BSD-style licenses, MPL 2.0 for jpeglib)
+  https://github.com/martinbenes1996/jpeglib
+
+Pillow (MIT-CMU license)            https://python-pillow.org
+NumPy (BSD license)                  https://numpy.org
+pywebview (BSD license)              https://pywebview.flowrl.com
+pythonnet / clr_loader (MIT license) https://github.com/pythonnet/pythonnet
+Python (PSF license)                 https://www.python.org
+Vue.js (MIT license)                 https://vuejs.org
+Lucide icons (ISC license)           https://lucide.dev
+Inter font (SIL Open Font License)   https://rsms.me/inter
+Vazirmatn font (SIL Open Font License) https://github.com/rastikerdar/vazirmatn
+
+Microsoft Edge WebView2 Runtime is part of Windows and is used to display the interface.
+
+Optional online lookup (only when you press "Search online") uses the public APIs of
+MusicBrainz / Cover Art Archive, Apple iTunes Search and Deezer, subject to their terms.
